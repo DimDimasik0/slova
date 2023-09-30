@@ -1,0 +1,56 @@
+/* Стили для общего контейнера */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(to right, #00ffaa, #46d9e0, #388df5);
+
+}
+
+/* Стили для заголовка */
+h1 {
+    text-align: center;
+     background: linear-gradient(to right, #ff562b, #ff8400, #f2d324, #ff0da2);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+
+/* Стили для столбиков */
+div {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+}
+
+/* Стили для списка вопросов и ответов */
+ul {
+    list-style-type: none;
+    
+}
+
+/* Стили для строки поиска */
+input[type="text"],
+button {
+    margin-top: 10px;
+}
+
+input[type="text"] {
+    padding: 5px;
+    width: 80%;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+li{
+  margin-bottom: 2em;
+  height:20px;
+}
